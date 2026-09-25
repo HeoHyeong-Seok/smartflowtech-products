@@ -3,141 +3,266 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>SmartFlowTech | 기술을 제품으로, 혁신을 시장으로</title>
-<meta name="description" content="UWB 정밀측위, mmWave 레이더, IoT, 스마트 센서, 스마트 조명, UV-C 살균 시스템을 개발하는 스마트플로우테크">
+<title>SmartFlowTech | Technology for a Safer and Smarter World</title>
+<meta name="description" content="UWB, mmWave Radar, IoT, Smart Sensor, UV-C, Smart Lighting, Automotive technology and products.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <a class="brand" href="#home"><img src="image2.png" alt="SmartFlowTech"></a>
-  <button class="menu" aria-label="메뉴 열기">☰</button>
+<header class="top">
+  <a class="logo" href="#home"><img src="image2.png" alt="SmartFlowTech"></a>
   <nav>
-    <a href="#company">COMPANY</a><a href="#products">PRODUCTS</a><a href="#technology">TECHNOLOGY</a>
-    <a href="#rnd">R&D·IP</a><a href="#investment">INVESTMENT</a>
-    <a href="#global">GLOBAL</a><a href="#contact">CONTACT</a>
+    <a href="#company"><b>COMPANY</b><small data-ko="회사소개" data-en="About Us">회사소개</small></a>
+    <a href="#products"><b>PRODUCTS</b><small data-ko="제품·서비스" data-en="Products">제품·서비스</small></a>
+    <a href="#technology"><b>TECHNOLOGY</b><small data-ko="핵심기술" data-en="Core Technology">핵심기술</small></a>
+    <a href="#rnd"><b>R&D·IP</b><small data-ko="연구개발·지재권" data-en="R&D · IP">연구개발·지재권</small></a>
+    <a href="#investment"><b>INVESTMENT</b><small data-ko="투자제안" data-en="Investment">투자제안</small></a>
+    <a href="#global"><b>GLOBAL</b><small data-ko="글로벌 사업" data-en="Global Business">글로벌 사업</small></a>
+    <a href="#contact"><b>CONTACT</b><small data-ko="문의하기" data-en="Contact Us">문의하기</small></a>
   </nav>
+  <div class="lang"><button onclick="setLang('ko')" id="krBtn" class="active">KR</button><span>|</span><button onclick="setLang('en')" id="enBtn">EN</button></div>
+  <a class="contactBtn" href="#contact">✉ &nbsp; <span data-ko="문의하기" data-en="Contact">문의하기</span></a>
 </header>
 
-<main>
-<section id="home" class="hero">
-  <div class="hero-copy">
-    <p class="eyebrow">SMARTFLOWTECH · PRODUCT COMPANY</p>
-    <h1>기술을 제품으로,<br><span>혁신을 시장으로.</span></h1>
-    <p class="lead">UWB · mmWave Radar · AI · IoT · Smart Sensor · Smart Lighting · Automotive</p>
-    <p>스마트플로우테크는 자체 기술을 기반으로 스마트 제품을 개발하고 제품화하여 국내외 시장에 공급하는 기술기업입니다.</p>
-    <div class="actions"><a class="btn primary" href="#products">제품 보기</a><a class="btn" href="#investment">투자·사업제휴</a></div>
-  </div>
-  <div class="hero-product">
-    <div class="halo"></div><img src="image3.png" alt="SmartFlowTech 이동형 UV-C 살균 시스템">
-    <div class="tag"><b>Smart UV-C</b><span>Mobile Sterilization System</span></div>
-  </div>
+<main id="home">
+<section class="hero">
+ <div class="heroShade"></div>
+ <div class="heroText">
+   <div class="eyebrow">S M A R T F L O W T E C H</div>
+   <h1>Technology for a Safer<br>and Smarter World</h1>
+   <p><span data-ko="UWB 정밀측위, mmWave 레이더, IoT, 스마트 센서, UV-C 살균, 스마트 조명까지&lt;br&gt;사람과 공간을 더 안전하고 스마트하게 만드는 기술, 스마트플로우테크가 만듭니다." data-en="From UWB positioning and mmWave radar to IoT, smart sensors, UV-C sterilization and smart lighting.&lt;br&gt;SmartFlowTech creates technology for safer, smarter spaces.">UWB 정밀측위, mmWave 레이더, IoT, 스마트 센서, UV-C 살균, 스마트 조명까지<br>사람과 공간을 더 안전하고 스마트하게 만드는 기술, 스마트플로우테크가 만듭니다.</span></p>
+   <div class="values">
+     <div>◉<b>SAFETY</b><span>안전한 공간</span></div>
+     <div>⚙<b>SMART</b><span>스마트 기술</span></div>
+     <div>◒<b>CLEAN</b><span>건강한 환경</span></div>
+     <div>◎<b>GLOBAL</b><span>글로벌 시장</span></div>
+   </div>
+ </div>
+
+ <div class="hero-tech-showcase">
+   <div class="hero-tech-title"><span data-ko="CORE TECHNOLOGY" data-en="CORE TECHNOLOGY">CORE TECHNOLOGY</span></div>
+   <div class="hero-tech-grid">
+     <div class="ht"><i>◎</i><b data-ko="정밀 위치측위" data-en="Precision Positioning">정밀 위치측위</b><span data-ko="UWB · 1~3m" data-en="UWB · 1~3m">UWB · 1~3m</span></div>
+     <div class="ht"><i>◉</i><b data-ko="mmWave 레이더" data-en="mmWave Radar">mmWave 레이더</b><span data-ko="고정밀 감지" data-en="Precision Sensing">고정밀 감지</span></div>
+     <div class="ht"><i>☀</i><b data-ko="UV-C 살균" data-en="UV-C Sterilization">UV-C 살균</b><span data-ko="스마트 살균" data-en="Smart Sterilization">스마트 살균</span></div>
+     <div class="ht"><i>▣</i><b data-ko="자동차 전장" data-en="Automotive Electronics">자동차 전장</b><span data-ko="ECU · Mobility" data-en="ECU · Mobility">ECU · Mobility</span></div>
+     <div class="ht"><i>◌</i><b data-ko="스마트 조명" data-en="Smart Lighting">스마트 조명</b><span data-ko="에너지 절감" data-en="Energy Saving">에너지 절감</span></div>
+     <div class="ht"><i>◎</i><b data-ko="글로벌 사업" data-en="Global Business">글로벌 사업</b><span data-ko="해외시장 확대" data-en="Global Expansion">해외시장 확대</span></div>
+   </div>
+ </div>
 </section>
 
-<section class="strip">
-  <div><b>UWB</b><span>Precision Positioning</span></div>
-  <div><b>mmWave</b><span>Radar Sensing</span></div>
-  <div><b>IoT</b><span>Wireless Control</span></div>
-  <div><b>AI</b><span>Sensor Fusion</span></div>
-  <div><b>Automotive</b><span>Smart Mobility</span></div>
+<section class="products" id="products">
+ <div class="productLead">
+  <div class="eyebrow">S M A R T F L O W T E C H</div>
+  <h2 data-ko="6대 핵심 제품" data-en="6 Core Products">6대 핵심 제품</h2>
+  <p data-ko="스마트플로우테크의 핵심 제품군" data-en="SmartFlowTech Core Product Portfolio">스마트플로우테크의 핵심 제품군</p><i></i>
+ </div>
+ </section>
+
+
+<section class="cards product-showcase" id="product-detail">
+ <article class="product-card">
+  <img src="verified-products/01_mobile_uvc.jpg" alt="모바일 UV-C 살균기">
+  <div><div class="tags" data-ko="UV-C 살균 · 병원·의료시설 · 스마트폰 앱 제어" data-en="UV-C Sterilization · Medical Facilities · App Control">UV-C 살균 · 병원·의료시설 · 스마트폰 앱 제어</div>
+  <h3 data-ko="모바일 UV-C 살균기" data-en="Mobile UV-C Sterilization System">모바일 UV-C 살균기</h3>
+  <p data-ko="병원·의료시설을 위한 이동형 UV-C 살균 솔루션" data-en="Mobile UV-C sterilization solution for hospitals and medical facilities">병원·의료시설을 위한 이동형 UV-C 살균 솔루션</p>
+  <button class="detail-btn" onclick="toggleDetail(this)" data-ko="제품 자세히 보기 →" data-en="View Product Details →">제품 자세히 보기 →</button>
+  <div class="detail-panel"><b data-ko="주요 특징" data-en="Key Features">주요 특징</b><p data-ko="UV-C 살균 · 이동형 구조 · 자동 주행 · 스마트폰 앱 제어 · 병원·의료·공공시설 적용" data-en="UV-C sterilization · Mobile structure · Automatic driving · Smartphone app control · Hospitals, medical and public facilities">UV-C 살균 · 이동형 구조 · 자동 주행 · 스마트폰 앱 제어 · 병원·의료·공공시설 적용</p></div></div>
+ </article>
+ <article class="product-card">
+  <img src="verified-products/02_indoor_positioning_light.jpg" alt="실내 위치인식 스마트 조명">
+  <div><div class="tags">UWB/BLE · AI · Smart Lighting</div>
+  <h3 data-ko="실내 위치인식 스마트 조명" data-en="Indoor Positioning Smart Lighting">실내 위치인식 스마트 조명</h3>
+  <p data-ko="UWB/BLE 기반 AI 실내 위치인식 조명 솔루션" data-en="AI indoor positioning smart lighting based on UWB/BLE">UWB/BLE 기반 AI 실내 위치인식 조명 솔루션</p>
+  <button class="detail-btn" onclick="toggleDetail(this)" data-ko="제품 자세히 보기 →" data-en="View Product Details →">제품 자세히 보기 →</button>
+  <div class="detail-panel"><b data-ko="주요 특징" data-en="Key Features">주요 특징</b><p data-ko="정밀 위치추적 · 스마트 조명 제어 · BLE/UWB 무선통신 · 실시간 모니터링" data-en="Precision positioning · Smart lighting control · BLE/UWB wireless · Real-time monitoring">정밀 위치추적 · 스마트 조명 제어 · BLE/UWB 무선통신 · 실시간 모니터링</p></div></div>
+ </article>
+ <article class="product-card">
+  <img src="verified-products/03_glass_ecu.jpg" alt="글라스 ECU 인버터 보드">
+  <div><div class="tags">Automotive · Glass Control · ECU</div>
+  <h3 data-ko="글라스 ECU 인버터 보드" data-en="Glass ECU Inverter Board">글라스 ECU 인버터 보드</h3>
+  <p data-ko="자동차·건축용 글라스 전기변환 및 정밀 제어 솔루션" data-en="Power conversion and precision glass control for automotive and architectural applications">자동차·건축용 글라스 전기변환 및 정밀 제어 솔루션</p>
+  <button class="detail-btn" onclick="toggleDetail(this)" data-ko="제품 자세히 보기 →" data-en="View Product Details →">제품 자세히 보기 →</button>
+  <div class="detail-panel"><b data-ko="주요 특징" data-en="Key Features">주요 특징</b><p data-ko="고효율 설계 · 고신뢰성 · 다양한 글라스 제품 적용 · 소형화 설계" data-en="High efficiency · High reliability · Multiple glass applications · Compact design">고효율 설계 · 고신뢰성 · 다양한 글라스 제품 적용 · 소형화 설계</p></div></div>
+ </article>
+ <article class="product-card">
+  <img src="verified-products/04_crane_collision_radar.jpg" alt="크레인 차량 충돌방지 레이더">
+  <div><div class="tags">mmWave Radar · Collision Prevention · Safety</div>
+  <h3 data-ko="크레인·차량 충돌방지 레이더" data-en="Crane & Vehicle Collision Prevention Radar">크레인·차량 충돌방지 레이더</h3>
+  <p data-ko="mmWave Radar 기반 작업자·차량 충돌방지 시스템" data-en="mmWave radar collision prevention system for workers and vehicles">mmWave Radar 기반 작업자·차량 충돌방지 시스템</p>
+  <button class="detail-btn" onclick="toggleDetail(this)" data-ko="제품 자세히 보기 →" data-en="View Product Details →">제품 자세히 보기 →</button>
+  <div class="detail-panel"><b data-ko="주요 특징" data-en="Key Features">주요 특징</b><p data-ko="충돌 사전 감지 · 실시간 경보 · 다양한 환경 적용 · 작업자 안전 확보" data-en="Pre-collision detection · Real-time alerts · Multiple environments · Worker safety">충돌 사전 감지 · 실시간 경보 · 다양한 환경 적용 · 작업자 안전 확보</p></div></div>
+ </article>
+ <article class="product-card">
+  <img src="verified-products/05_smart_guidance_light.jpg" alt="스마트 유도등">
+  <div><div class="tags">BLE/UWB · Smart Guidance · Low Power</div>
+  <h3 data-ko="스마트 유도등" data-en="BLE/UWB Smart Guidance Light">스마트 유도등</h3>
+  <p data-ko="BLE/UWB 기반 실내·외 정밀 위치기반 스마트 유도등" data-en="BLE/UWB smart guidance light for indoor and outdoor positioning">BLE/UWB 기반 실내·외 정밀 위치기반 스마트 유도등</p>
+  <button class="detail-btn" onclick="toggleDetail(this)" data-ko="제품 자세히 보기 →" data-en="View Product Details →">제품 자세히 보기 →</button>
+  <div class="detail-panel"><b data-ko="주요 특징" data-en="Key Features">주요 특징</b><p data-ko="정밀 위치 안내 · 저전력 설계 · BLE/UWB 무선통신 · 다양한 설치 환경" data-en="Precision guidance · Low power · BLE/UWB wireless · Flexible installation">정밀 위치 안내 · 저전력 설계 · BLE/UWB 무선통신 · 다양한 설치 환경</p></div></div>
+ </article>
+ <article class="product-card">
+  <img src="verified-products/06_precision_positioning.jpg" alt="정밀 위치측위 시스템">
+  <div><div class="tags">UWB · BLE · IMU · Wi-Fi · GNSS</div>
+  <h3 data-ko="정밀 위치측위 시스템" data-en="Precision Positioning System">정밀 위치측위 시스템</h3>
+  <p data-ko="UWB 기반 실내·외 정밀 위치서비스" data-en="UWB-based indoor and outdoor precision positioning service">UWB 기반 실내·외 정밀 위치서비스</p>
+  <button class="detail-btn" onclick="toggleDetail(this)" data-ko="제품 자세히 보기 →" data-en="View Product Details →">제품 자세히 보기 →</button>
+  <div class="detail-panel"><b data-ko="주요 특징" data-en="Key Features">주요 특징</b><p data-ko="UWB·BLE·IMU·Wi-Fi·GNSS 융합 · 스마트폰 기반 · 실내·외 통합 · 3D 지도/층감지" data-en="UWB·BLE·IMU·Wi-Fi·GNSS fusion · Smartphone-based · Indoor/outdoor integration · 3D map/floor detection">UWB·BLE·IMU·Wi-Fi·GNSS 융합 · 스마트폰 기반 · 실내·외 통합 · 3D 지도/층감지</p></div></div>
+ </article>
 </section>
 
-<section id="company" class="section">
-  <p class="eyebrow">ABOUT SMARTFLOWTECH</p><h2>연구개발을 넘어<br>기술을 제품으로, 시장과 연결합니다.</h2>
-  <div class="two">
-    <p class="big">자체 기술을 완제품으로 구현하고 국내외 시장과 연결하는 제품 중심 기술기업입니다.</p>
-    <p>UWB 정밀 위치측위, mmWave 레이더 센싱, IoT, 스마트 센서, 스마트 조명, UV-C 살균 시스템 및 모바일 App 연동 기술을 중심으로 자체 제품을 개발합니다. 제품기획 → 연구개발 → 시험 → 인증 → 양산 → 국내외 판매까지 연결하여 기술을 시장의 제품으로 완성합니다.</p>
-  </div>
-  <div class="flow"><span>IDEA</span><i>→</i><span>R&D</span><i>→</i><span>PRODUCT</span><i>→</i><span>BUSINESS</span><i>→</i><span>GLOBAL</span></div>
+
+<section class="company-section" id="company">
+ <div class="section-head">
+   <small>ABOUT SMARTFLOWTECH</small>
+   <h2><span data-ko="기술을 제품으로,<br>혁신을 시장으로." data-en="Technology to Product,<br>Innovation to Market.">기술을 제품으로,<br>혁신을 시장으로.</span></h2>
+   <p><span data-ko="스마트플로우테크는 자체 기술을 기반으로 전자·IoT 스마트 제품을 연구개발하고 제품화하는 기술기업입니다." data-en="SmartFlowTech is a technology company that develops and commercializes electronic and IoT smart products based on its own technologies.">스마트플로우테크는 자체 기술을 기반으로 전자·IoT 스마트 제품을 연구개발하고 제품화하는 기술기업입니다.</span></p>
+ </div>
+ <div class="company-grid">
+   <article><b>01</b><h3><span data-ko="제품 기획 · 연구개발" data-en="Product Planning & R&D">제품 기획 · 연구개발</span></h3><p><span data-ko="아이디어와 요구사항을 분석하여 H/W, F/W, S/W, 모바일 앱까지 융합 개발합니다." data-en="We integrate H/W, F/W, S/W and mobile apps from ideas and customer requirements.">아이디어와 요구사항을 분석하여 H/W, F/W, S/W, 모바일 앱까지 융합 개발합니다.</span></p></article>
+   <article><b>02</b><h3><span data-ko="시험 · 인증 · 제품화" data-en="Testing · Certification · Productization">시험 · 인증 · 제품화</span></h3><p><span data-ko="시제품 제작부터 성능 검증, 전자파·제품 인증, 양산 준비까지 제품화 전 과정을 연결합니다." data-en="We connect the full productization process from prototyping and performance verification to EMC/product certification and mass-production preparation.">시제품 제작부터 성능 검증, 전자파·제품 인증, 양산 준비까지 제품화 전 과정을 연결합니다.</span></p></article>
+   <article><b>03</b><h3><span data-ko="제조 · 시장 공급" data-en="Manufacturing & Market Supply">제조 · 시장 공급</span></h3><p><span data-ko="자체 기술과 협력 생산체계를 기반으로 국내외 시장에 완제품 공급을 추진합니다." data-en="We supply finished products to domestic and global markets through our technology and manufacturing partnerships.">자체 기술과 협력 생산체계를 기반으로 국내외 시장에 완제품 공급을 추진합니다.</span></p></article>
+   <article><b>04</b><h3><span data-ko="미래 기술 확장" data-en="Future Technology Expansion">미래 기술 확장</span></h3><p><span data-ko="AI, 로봇, 자동차 전장, 미래 모빌리티, Edge AI, 스마트 헬스케어 분야로 기술을 확장합니다." data-en="We are expanding into AI, robotics, automotive electronics, future mobility, Edge AI and smart healthcare.">AI, 로봇, 자동차 전장, 미래 모빌리티, Edge AI, 스마트 헬스케어 분야로 기술을 확장합니다.</span></p></article>
+ </div>
 </section>
 
-
-
-<section id="products" class="section dark product-showcase v4-products">
-  <p class="eyebrow">PRODUCTS & SOLUTIONS</p>
-  <h2>SmartFlowTech Product Portfolio</h2>
-  <p class="portfolio-intro">자체 기술을 제품으로 구현한 SmartFlowTech의 핵심 제품군입니다.</p>
-
-  <div class="portfolio-master">
-    <img src="smartflowtech_product_portfolio_6.png" alt="SmartFlowTech 6대 핵심 제품 포트폴리오">
-  </div>
-
-  <div class="product-mini-grid">
-    <article><img src="03_uvc_sterilizer.png" alt="모바일 UV-C 살균기"><div><b>01</b><h3>Mobile UV-C Sterilizer</h3><p>병원·의료·공공시설용 이동형 살균 솔루션</p></div></article>
-    <article><img src="02_uwb_lighting.png" alt="실내 위치인식 스마트 조명"><div><b>02</b><h3>Indoor Positioning Smart Lighting</h3><p>UWB/BLE 기반 위치인식·스마트 조명</p></div></article>
-    <article><img src="01_glass_ecu.png" alt="글라스 ECU 인버터 보드"><div><b>03</b><h3>Glass ECU Inverter Board</h3><p>자동차·건축용 글라스 제어보드</p></div></article>
-    <article><img src="04_radar_crane.png" alt="크레인 차량 충돌방지 레이더"><div><b>04</b><h3>mmWave Collision Radar</h3><p>크레인·차량 작업현장 충돌방지 센싱</p></div></article>
-    <article><img src="05_smart_guidance.png" alt="스마트 유도등"><div><b>05</b><h3>Smart Guidance Light</h3><p>BLE/UWB 기반 실내·외 안내 솔루션</p></div></article>
-    <article><img src="06_ble_uwb_positioning.png" alt="정밀 위치측위 시스템"><div><b>06</b><h3>Precision Positioning System</h3><p>UWB/BLE 기반 실내·외 정밀 위치 서비스</p></div></article>
-  </div>
+<section class="rnd-section" id="rnd">
+ <div class="section-title"><small>R&D · INTELLECTUAL PROPERTY</small><h2><span data-ko="연구개발 · 지식재산" data-en="Research & Intellectual Property">연구개발 · 지식재산</span></h2><p><span data-ko="핵심기술과 지식재산을 기반으로 제품 경쟁력을 강화합니다." data-en="We strengthen product competitiveness through core technologies and intellectual property.">핵심기술과 지식재산을 기반으로 제품 경쟁력을 강화합니다.</span></p></div>
+ <div class="rnd-grid">
+   <div><strong>UWB / BLE</strong><span><span data-ko="실내·외 정밀 위치측위 및 위치기반 서비스" data-en="Indoor/outdoor precision positioning and location-based services">실내·외 정밀 위치측위 및 위치기반 서비스</span></span></div>
+   <div><strong>mmWave Radar</strong><span><span data-ko="사람·차량·안전 감지를 위한 고정밀 센싱" data-en="High-precision sensing for people, vehicles and safety applications">사람·차량·안전 감지를 위한 고정밀 센싱</span></span></div>
+   <div><strong>IoT / Smart Sensor</strong><span><span data-ko="무선통신과 센서 융합 기반 스마트 제어" data-en="Smart control based on wireless communications and sensor fusion">무선통신과 센서 융합 기반 스마트 제어</span></span></div>
+   <div><strong>Automotive</strong><span><span data-ko="차량 전장 ECU 및 스마트 모빌리티 기술" data-en="Automotive ECU and smart mobility technologies">차량 전장 ECU 및 스마트 모빌리티 기술</span></span></div>
+ </div>
+ <div class="ip-note"><span data-ko="등록 특허 4건 · 등록 디자인 7건 · 지속적인 신규 지식재산 확보 추진" data-en="4 registered patents · 7 registered designs · Continued expansion of intellectual property">등록 특허 4건 · 등록 디자인 7건 · 지속적인 신규 지식재산 확보 추진</span></div>
 </section>
 
-
-
-<section id="technology" class="section">
-  <p class="eyebrow">CORE TECHNOLOGY</p><h2>기술 하나가 아닌,<br>기술의 융합이 경쟁력입니다.</h2>
-  <div class="tech-grid">
-    <div><b>UWB</b><span>정밀 위치측위</span></div><div><b>mmWave</b><span>비접촉 레이더 센싱</span></div>
-    <div><b>BLE / Wi-Fi</b><span>IoT Connectivity</span></div><div><b>Sensor Fusion</b><span>다중센서 융합</span></div>
-    <div><b>Embedded</b><span>H/W · F/W · S/W</span></div><div><b>AI</b><span>Intelligent Algorithm</span></div>
-    <div><b>Mobile App</b><span>원격제어·모니터링</span></div><div><b>Automotive</b><span>전자제어·미래 모빌리티</span></div>
-  </div>
+<section class="investment-section" id="investment">
+ <div class="investment-copy">
+   <small>INVESTMENT & BUSINESS PARTNERSHIP</small>
+   <h2><span data-ko="기술과 제품의<br>성장을 함께할 파트너를 찾습니다." data-en="We seek partners to grow<br>technology and products together.">기술과 제품의<br>성장을 함께할 파트너를 찾습니다.</span></h2>
+   <p><span data-ko="스마트플로우테크는 자체 기술의 제품화와 시장 확대를 위해 투자, 공동사업, OEM·ODM, 유통 및 전략적 파트너십을 추진합니다." data-en="SmartFlowTech pursues investment, joint business, OEM/ODM, distribution and strategic partnerships to commercialize its technologies and expand into global markets.">스마트플로우테크는 자체 기술의 제품화와 시장 확대를 위해 투자, 공동사업, OEM·ODM, 유통 및 전략적 파트너십을 추진합니다.</span></p>
+   <a href="#contact" class="section-btn"><span data-ko="투자·사업제휴 문의 →" data-en="Investment & Partnership Inquiry →">투자·사업제휴 문의 →</span></a>
+ </div>
+ <div class="business-boxes">
+   <div><b>01</b><strong>Investment</strong><span><span data-ko="제품 사업화 및 성장 투자" data-en="Product commercialization and growth investment">제품 사업화 및 성장 투자</span></span></div>
+   <div><b>02</b><strong>OEM · ODM</strong><span><span data-ko="기술 기반 공동 제품개발" data-en="Technology-based joint product development">기술 기반 공동 제품개발</span></span></div>
+   <div><b>03</b><strong>Partnership</strong><span><span data-ko="국내외 유통·사업 협력" data-en="Domestic and global distribution partnerships">국내외 유통·사업 협력</span></span></div>
+   <div><b>04</b><strong>Technology</strong><span><span data-ko="핵심기술 라이선스·협업" data-en="Core technology licensing and collaboration">핵심기술 라이선스·협업</span></span></div>
+ </div>
 </section>
 
-<section id="rnd" class="section soft">
-  <p class="eyebrow">R&D · IP · ACHIEVEMENTS</p><h2>지속적인 연구개발이<br>우리의 기술자산입니다.</h2>
-  <div class="stats">
-    <div><strong>4</strong><span>UWB 관련 특허등록*</span></div><div><strong>7</strong><span>디자인등록*</span></div>
-    <div><strong>R&D</strong><span>Radar · UWB · UV-C · Smart Lighting</span></div><div><strong>GLOBAL</strong><span>해외 전시·사업화 추진</span></div>
-  </div>
-  <p class="note">* 업로드된 회사소개서 기재 기준. 홈페이지 공개 전 최신 등록 현황 확인 권장.</p>
+<section class="global-section" id="global">
+ <div class="section-title light"><small>GLOBAL BUSINESS</small><h2>Global Technology Partner</h2><p><span data-ko="국내에서 축적한 기술과 제품 경쟁력을 기반으로 해외시장 확대를 추진합니다." data-en="We expand into global markets based on technologies and product competitiveness developed in Korea.">국내에서 축적한 기술과 제품 경쟁력을 기반으로 해외시장 확대를 추진합니다.</span></p></div>
+ <div class="global-grid">
+   <article><span>01</span><h3>Overseas Marketing</h3><p><span data-ko="해외 전시회와 바이어 네트워크를 통한 글로벌 제품 홍보 및 시장 개척" data-en="Global product promotion and market development through overseas exhibitions and buyer networks">해외 전시회와 바이어 네트워크를 통한 글로벌 제품 홍보 및 시장 개척</span></p></article>
+   <article><span>02</span><h3>Global Partnership</h3><p><span data-ko="현지 기업과의 유통, 공동개발, OEM·ODM 및 전략적 사업 협력" data-en="Distribution, joint development, OEM/ODM and strategic cooperation with local partners">현지 기업과의 유통, 공동개발, OEM·ODM 및 전략적 사업 협력</span></p></article>
+   <article><span>03</span><h3>Product Localization</h3><p><span data-ko="국가별 시장 요구와 적용 환경을 고려한 제품 현지화 및 사업화" data-en="Product localization and commercialization tailored to market requirements and operating environments">국가별 시장 요구와 적용 환경을 고려한 제품 현지화 및 사업화</span></p></article>
+ </div>
 </section>
 
-
-<section id="investment" class="section dark">
-  <p class="eyebrow">INVESTMENT & STRATEGIC PARTNERSHIP</p><h2>기술을 넘어<br>글로벌 사업으로.</h2>
-  <p class="wide">UWB, mmWave Radar, IoT, AI, 스마트조명 및 자동차 전장 기술을 기반으로 자체 완제품의 양산·판매·해외시장 진출을 추진합니다.</p>
-  <div class="invest">
-    <span>제품 고도화·양산</span><span>AI·Radar·Sensor Fusion</span><span>국내외 인증</span>
-    <span>제조·금형·양산체계</span><span>글로벌 판매·유통망</span><span>전략적 투자·공동사업</span>
-  </div>
-  <a class="btn light" href="#contact">투자·전략적 제휴 문의</a>
+<section class="inquiry-section" id="contact">
+ <div class="inquiry-info">
+   <small>CONTACT SMARTFLOWTECH</small>
+   <h2><span data-ko="제품 · 기술 · 투자 ·<br>사업제휴 문의" data-en="Product · Technology · Investment ·<br>Business Partnership Inquiry">제품 · 기술 · 투자 ·<br>사업제휴 문의</span></h2>
+   <p><span data-ko="스마트플로우테크와 함께 새로운 사업 기회를 만들어 보세요." data-en="Explore new business opportunities with SmartFlowTech.">스마트플로우테크와 함께 새로운 사업 기회를 만들어 보세요.</span></p>
+   <div class="contact-lines">
+     <p><b>PHONE</b><span>010-6273-2460</span></p>
+     <p><b>FAX</b><span>0504-329-2460</span></p>
+     <p><b>E-MAIL</b><span>hsheo@smartflowtech.co.kr</span></p>
+     <p><b>ADDRESS</b><span><span data-ko="경기도 부천시 길주로 252, 금광베네스타 201호" data-en="201, Geumgwang Benesta, 252 Gilju-ro, Bucheon-si, Gyeonggi-do, Republic of Korea">경기도 부천시 길주로 252, 금광베네스타 201호</span></span></p>
+   </div>
+ </div>
+ <form class="inquiry-form" onsubmit="return sendInquiry(event)">
+   <label><span data-ko="회사명 / 성함" data-en="Company / Name">회사명 / 성함</span><input id="qname" type="text" required placeholder="회사명 또는 성함" data-ph-ko="회사명 또는 성함" data-ph-en="Company or Name"></label>
+   <label><span data-ko="이메일" data-en="E-mail">이메일</span><input id="qemail" type="email" required placeholder="example@company.com"></label>
+   <label><span data-ko="문의 분야" data-en="Inquiry Type">문의 분야</span><select id="qtype"><option data-ko="제품 문의" data-en="Product Inquiry">제품 문의</option><option data-ko="기술 문의" data-en="Technology Inquiry">기술 문의</option><option data-ko="투자·사업제휴" data-en="Investment & Partnership">투자·사업제휴</option><option data-ko="OEM·ODM" data-en="OEM · ODM">OEM·ODM</option><option data-ko="글로벌 사업" data-en="Global Business">글로벌 사업</option></select></label>
+   <label><span data-ko="문의 내용" data-en="Message">문의 내용</span><textarea id="qmessage" required placeholder="문의하실 내용을 입력해 주세요." data-ph-ko="문의하실 내용을 입력해 주세요." data-ph-en="Please enter your inquiry."></textarea></label>
+   <button type="submit" data-ko="문의 메일 작성하기 →" data-en="Compose Inquiry E-mail →">문의 메일 작성하기 →</button>
+   <small><span data-ko="버튼을 누르면 기본 메일 프로그램에서 문의 메일이 작성됩니다." data-en="Click the button to compose an inquiry in your default e-mail application.">버튼을 누르면 기본 메일 프로그램에서 문의 메일이 작성됩니다.</span></small>
+ </form>
 </section>
 
-<section id="global" class="section">
-  <p class="eyebrow">GLOBAL BUSINESS</p><h2>From Korea<br>to the Global Market.</h2>
-  <div class="two"><p class="big">자체 제품의 수출과 글로벌 사업화를 위해 Distributor, Sales Partner, OEM·ODM Partner 및 전략적 투자자와 협력합니다.</p>
-  <div class="partner">Distributor · Sales Partner · OEM/ODM Partner · Technology Partner · Joint R&D Partner · Strategic Investor</div></div>
-</section>
-
-<section class="section future">
-  <p class="eyebrow">FUTURE TECHNOLOGY</p><h2>AI × ROBOT × RADAR × UWB × MOBILITY</h2>
-  <p>AI 병원형 자율주행 UV-C 살균 로봇 · AI UWB 정밀측위 · AI 재난안전 구조 · AI mmWave Healthcare Radar · AI Smart Lighting · AI Automotive · AI Drone Positioning · AI Robot Sensor Fusion</p>
-</section>
-
-<section id="contact" class="section contact">
-  <p class="eyebrow">CONTACT</p><h2>Let's Create the Future Together.</h2>
-  <p>제품 구매 · 국내외 공급 · OEM/ODM · 해외 Distributor · 투자 · 전략적 제휴</p>
-  <div class="contact-box">
-    <div><b>SMART FLOW TECH</b><p>스마트플로우테크</p></div>
-    <div><b>PHONE</b><p>010-6273-2460</p></div>
-    <div><b>WEB</b><p>smartflowtech.co.kr</p></div>
-    <div><b>E-MAIL</b><p>hsheo@smartflowtech.co.kr</p></div>
-  </div>
-</section>
-<section class="service-link">
-  <div>
-    <p class="eyebrow">ENGINEERING SERVICE</p>
-    <h2>개발용역은 기존 SmartFlow<br>개발서비스에서 운영합니다.</h2>
-    <p>회로설계 · PCB Artwork · Firmware · 시제품 · EMI/EMC · 인증 컨설팅은 기존 개발서비스 홈페이지에서 별도로 안내합니다.</p>
-  </div>
-  <a class="btn" href="https://www.smartflowtech.co.kr" target="_blank" rel="noopener">개발서비스 홈페이지</a>
-</section>
 </main>
 
-<footer><img src="image2.png" alt="SmartFlowTech"><p>Technology to Product, Innovation to Market.</p><small>© SmartFlowTech. All rights reserved.</small></footer>
+<section class="bottom-links">
+ <div class="dev-service-card">
+   <div>
+    <small>SMARTFLOWTECH ENGINEERING SERVICE</small>
+    <h2 data-ko="개발서비스 홈페이지" data-en="Engineering Service Website">개발서비스 홈페이지</h2>
+    <p data-ko="전자회로 · PCB Artwork · 펌웨어 · 시제품 · 전자파 인증 컨설팅" data-en="Electronic Circuit · PCB Artwork · Firmware · Prototype · EMC Certification Consulting">전자회로 · PCB Artwork · 펌웨어 · 시제품 · 전자파 인증 컨설팅</p>
+   </div>
+   <a class="dev-home-btn" href="https://www.smartflow-design.kr/" target="_blank" rel="noopener"><span data-ko="개발서비스 홈페이지 →" data-en="Engineering Service Website →">개발서비스 홈페이지 →</span></a>
+ </div>
+
+ <div class="location-wrap">
+   <div class="location-info">
+     <small>LOCATION</small>
+     <h2 data-ko="오시는 길" data-en="Location">오시는 길</h2>
+     <p><b>SmartFlowTech</b></p>
+     <p data-ko="경기도 부천시 길주로 252, 금광베네스타 201호" data-en="Room 201, Geumgwang Benesta, 252 Gilju-ro, Bucheon-si, Gyeonggi-do, Republic of Korea">경기도 부천시 길주로 252, 금광베네스타 201호</p>
+     <a class="naver-map-btn" href="https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EB%B6%80%EC%B2%9C%EC%8B%9C%20%EA%B8%B8%EC%A3%BC%EB%A1%9C%20252" target="_blank" rel="noopener"><span data-ko="네이버 지도에서 보기 →" data-en="View on Naver Map →">네이버 지도에서 보기 →</span></a>
+   </div>
+   <div class="map-box">
+     <iframe title="SmartFlowTech Location Map" loading="lazy" allowfullscreen
+       src="https://www.openstreetmap.org/export/embed.html?bbox=126.760%2C37.495%2C126.790%2C37.515&amp;layer=mapnik"></iframe>
+     <div class="map-pin"><b>SmartFlowTech</b><span data-ko="길주로 252" data-en="252 Gilju-ro">길주로 252</span></div>
+   </div>
+ </div>
+</section>
+<section class="service-footer">
+ <div class="service-block">
+  <h3>SMARTFLOWTECH <span>SERVICES</span></h3>
+  <div class="service-items">
+   <span>◎ <b><span data-ko="UWB 정밀측위" data-en="UWB Precision Positioning">UWB 정밀측위</span></b></span><span>◉ <b>mmWave Radar</b></span>
+   <span>⌁ <b>IoT / Smart Sensor</b></span><span>☼ <b>Smart Lighting</b></span>
+   <span>▣ <b>Automotive Electronics</b></span><span>✦ <b>UV-C Sterilization</b></span>
+   <span>⚙ <b>R&D / OEM·ODM</b></span>
+  </div>
+ </div>
+ <div class="contact-block">
+  <h3>CONTACT US</h3>
+  <b><span data-ko="스마트플로우테크" data-en="SmartFlowTech">스마트플로우테크</span></b>
+  <p>☎ 010-6273-2460　　FAX 0504-329-2460</p>
+  <p>✉ hsheo@smartflowtech.co.kr</p>
+  <p>⌖ <span data-ko="경기도 부천시 길주로 252, 금광베네스타 201호" data-en="201, Geumgwang Benesta, 252 Gilju-ro, Bucheon-si, Gyeonggi-do, Republic of Korea">경기도 부천시 길주로 252, 금광베네스타 201호</span></p>
+ </div>
+</section>
+<footer><span>© 2026 SmartFlowTech. All Rights Reserved.</span><span>Technology to Product, Innovation to Market.</span></footer>
+
+
+
+
 <script>
-const btn=document.querySelector('.menu'),nav=document.querySelector('nav');
-btn.onclick=()=>nav.classList.toggle('open');
-document.querySelectorAll('nav a').forEach(a=>a.onclick=()=>nav.classList.remove('open'));
+function toggleDetail(btn){
+ const p=btn.nextElementSibling;
+ const open=p.classList.toggle('open');
+ const lang=document.documentElement.lang==='en'?'en':'ko';
+ btn.textContent=open?(lang==='en'?'Close Details ↑':'상세정보 닫기 ↑'):(lang==='en'?'View Product Details →':'제품 자세히 보기 →');
+}
+function setLang(lang){
+ document.documentElement.lang=lang;
+ document.title = lang==='en' ? 'SmartFlowTech | Technology for a Safer and Smarter World' : '스마트플로우테크 | 기술을 제품으로, 혁신을 시장으로';
+ document.querySelectorAll('[data-ko][data-en]').forEach(el=>{
+   el.innerHTML=el.getAttribute(lang==='en'?'data-en':'data-ko');
+ });
+ document.querySelectorAll('[data-ph-ko][data-ph-en]').forEach(el=>{
+   el.placeholder=el.getAttribute(lang==='en'?'data-ph-en':'data-ph-ko');
+ });
+ document.getElementById('krBtn').classList.toggle('active',lang==='ko');
+ document.getElementById('enBtn').classList.toggle('active',lang==='en');
+ localStorage.setItem('sft-lang',lang);
+}
+function sendInquiry(e){
+ e.preventDefault();
+ const name=document.getElementById('qname').value, email=document.getElementById('qemail').value;
+ const type=document.getElementById('qtype').value, msg=document.getElementById('qmessage').value;
+ const subject=encodeURIComponent('[SmartFlowTech Website Inquiry] '+type+' - '+name);
+ const body=encodeURIComponent('Name/Company: '+name+'\nEmail: '+email+'\nCategory: '+type+'\n\nMessage:\n'+msg);
+ window.location.href='mailto:hsheo@smartflowtech.co.kr?subject='+subject+'&body='+body;
+ return false;
+}
+document.addEventListener('DOMContentLoaded',()=>setLang(localStorage.getItem('sft-lang')||'ko'));
 </script>
+
 </body></html>
