@@ -173,13 +173,63 @@
      <p><b>ADDRESS</b><span><span data-ko="경기도 부천시 길주로 252, 금광베네스타 201호" data-en="201, Geumgwang Benesta, 252 Gilju-ro, Bucheon-si, Gyeonggi-do, Republic of Korea">경기도 부천시 길주로 252, 금광베네스타 201호</span></span></p>
    </div>
  </div>
- <form class="inquiry-form" onsubmit="return sendInquiry(event)">
-   <label><span data-ko="회사명 / 성함" data-en="Company / Name">회사명 / 성함</span><input id="qname" type="text" required placeholder="회사명 또는 성함" data-ph-ko="회사명 또는 성함" data-ph-en="Company or Name"></label>
-   <label><span data-ko="이메일" data-en="E-mail">이메일</span><input id="qemail" type="email" required placeholder="example@company.com"></label>
-   <label><span data-ko="문의 분야" data-en="Inquiry Type">문의 분야</span><select id="qtype"><option data-ko="제품 문의" data-en="Product Inquiry">제품 문의</option><option data-ko="기술 문의" data-en="Technology Inquiry">기술 문의</option><option data-ko="투자·사업제휴" data-en="Investment & Partnership">투자·사업제휴</option><option data-ko="OEM·ODM" data-en="OEM · ODM">OEM·ODM</option><option data-ko="글로벌 사업" data-en="Global Business">글로벌 사업</option></select></label>
-   <label><span data-ko="문의 내용" data-en="Message">문의 내용</span><textarea id="qmessage" required placeholder="문의하실 내용을 입력해 주세요." data-ph-ko="문의하실 내용을 입력해 주세요." data-ph-en="Please enter your inquiry."></textarea></label>
-   <button type="submit" data-ko="문의 메일 작성하기 →" data-en="Compose Inquiry E-mail →">문의 메일 작성하기 →</button>
-   <small><span data-ko="버튼을 누르면 기본 메일 프로그램에서 문의 메일이 작성됩니다." data-en="Click the button to compose an inquiry in your default e-mail application.">버튼을 누르면 기본 메일 프로그램에서 문의 메일이 작성됩니다.</span></small>
+<form class="inquiry-form"
+      id="inquiryForm"
+      action="https://formspree.io/f/xrpbyvon"
+      method="POST">
+
+   <input type="hidden" name="_subject"
+          value="[SmartFlowTech] 홈페이지 문의">
+   
+  <label>
+  <span data-ko="회사명 / 성함" data-en="Company / Name">회사명 / 성함</span>
+  <input id="qname"
+         name="name"
+         type="text"
+         required
+         placeholder="회사명 또는 성함"
+         data-ph-ko="회사명 또는 성함"
+         data-ph-en="Company or Name">
+</label>
+  <span data-ko="이메일" data-en="E-mail">이메일</span>
+  <input id="qemail"
+         name="email"
+         type="email"
+         required
+         placeholder="example@company.com">
+</label>
+
+   <label><span data-ko="이메일" data-en="E-mail">이메일</span><input id="qemail" name="email" type="email" required placeholder="example@company.com"></label>
+   <label><span data-ko="문의 분야" data-en="Inquiry Type">문의 분야</span><select id="qtype" name="category"><option data-ko="제품 문의" data-en="Product Inquiry">제품 문의</option><option data-ko="기술 문의" data-en="Technology Inquiry">기술 문의</option><option data-ko="투자·사업제휴" data-en="Investment & Partnership">투자·사업제휴</option><option data-ko="OEM·ODM" data-en="OEM · ODM">OEM·ODM</option><option data-ko="글로벌 사업" data-en="Global Business">글로벌 사업</option></select></label>
+  
+  <label>
+  <span data-ko="문의 내용" data-en="Message">문의 내용</span>
+  <textarea id="qmessage" name="message" required
+            placeholder="문의하실 내용을 입력해 주세요."
+            data-ph-ko="문의하실 내용을 입력해 주세요."
+            data-ph-en="Please enter your inquiry."></textarea>
+  
+</label>
+   
+<label>
+  <span data-ko="첨부파일" data-en="Attachment">첨부파일</span>
+  <input type="file"
+         id="qfile"
+         name="attachment"
+         accept=".pdf,.jpg,.jpeg,.png,.zip,.doc,.docx,.xls,.xlsx">
+</label>
+   <button type="submit"
+        data-ko="문의 보내기 →"
+        data-en="Send Inquiry →">
+    문의 보내기 →
+</button>
+  <small>
+  <span data-ko="문의 내용을 확인한 후 담당자가 연락드리겠습니다."
+        data-en="We will review your inquiry and contact you.">
+    문의 내용을 확인한 후 담당자가 연락드리겠습니다.
+  </span>
+ </small>
+    
  </form>
 </section>
   
