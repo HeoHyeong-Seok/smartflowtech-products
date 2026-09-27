@@ -109,7 +109,7 @@ footer{display:flex;justify-content:space-between;align-items:center;padding:16p
 #certifications .portfolio figure,
 #investment-proposal .portfolio figure {
   width: 100%;
-  max-width: 900px;
+  max-width: 600px;
   margin: 0 auto;
 }
 
