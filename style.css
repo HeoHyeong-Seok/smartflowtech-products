@@ -144,3 +144,19 @@ footer{display:flex;justify-content:space-between;align-items:center;padding:16p
   padding-top: 25px;
   padding-bottom: 25px;
 }
+/* Compact certification / investment sections */
+#certifications,
+#investment-proposal {
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+}
+
+#certifications .portfolio figure,
+#investment-proposal .portfolio figure {
+  margin: 8px auto 0 !important;
+}
+
+#certifications h2,
+#investment-proposal h2 {
+  margin: 5px 0 8px !important;
+}
