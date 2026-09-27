@@ -96,3 +96,29 @@ footer{display:flex;justify-content:space-between;align-items:center;padding:16p
 @media(max-width:950px){
  .hero-tech-showcase{left:20px!important;right:20px!important;top:auto!important;bottom:18px!important;width:auto!important;min-height:0!important}
 }
+
+
+/* Certifications & Investment Proposal */
+#certifications .portfolio,
+#investment-proposal .portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#certifications .portfolio figure,
+#investment-proposal .portfolio figure {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#certifications .portfolio img,
+#investment-proposal .portfolio img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+
