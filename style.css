@@ -128,3 +128,19 @@ footer{display:flex;justify-content:space-between;align-items:center;padding:16p
     max-width: 850px;
   }
 }
+/* V7.0 — Compact vertical spacing */
+.company-section,
+.rnd-section,
+.investment-section,
+.global-section,
+.inquiry-section,
+.bottom-links {
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+#certifications,
+#investment-proposal {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
