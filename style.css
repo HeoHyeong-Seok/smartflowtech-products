@@ -141,6 +141,6 @@ footer{display:flex;justify-content:space-between;align-items:center;padding:16p
 
 #certifications,
 #investment-proposal {
-  padding-top: 45px;
-  padding-bottom: 45px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
